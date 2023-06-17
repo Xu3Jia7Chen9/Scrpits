@@ -25,9 +25,33 @@
             "author": "cqdm",
             "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdx.js",
             "icons": [
-                "https://s2.loli.net/2023/06/17/RIX7KfhlJvUCzTF.jpg"
+                "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
             ],
             "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdx.js"
+        },
+        {
+            "id": "yyq",
+            "name": "悦野圈",
+            "keys": [
+                "yyq"
+            ],
+            "settings": [
+                {
+                    "id": "yyq",
+                    "name": "CK列表",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 4,
+                    "desc": "yyq"
+                }
+            ],
+            "author": "cqdm",
+            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/yyq.js",
+            "icons": [
+                "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
+            ],
+            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/yyq.js"
         }
     ]
 }
