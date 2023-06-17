@@ -18,7 +18,7 @@
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
-                    "rows": 8,
+                    "rows": 4,
                     "desc": "zjdxck"
                 }
             ],
