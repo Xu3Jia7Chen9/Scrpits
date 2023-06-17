@@ -48,7 +48,6 @@ async function GetRewrite() {
         const ck1 = $request.headers['Cookie']
         const ck2 = ck1.match(/\d+/)[0];
         ck=ck1+"&"+ck2;
-        log(ck)
         if (yyq) {
             if (yyq.indexOf(ck) == -1) {
                 yyq = yyq + "\n" + ck;
