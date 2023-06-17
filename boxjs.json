@@ -1,0 +1,33 @@
+{
+    "id": "cqdm",
+    "name": "圈X获取ck",
+    "author": "levi",
+    "icon": "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg",
+    "repo": "https://github.com/578440613/Scrpits",
+    "apps": [
+        {
+            "id": "zjdx",
+            "name": "浙江电信",
+            "keys": [
+                "zjdxck"
+            ],
+            "settings": [
+                {
+                    "id": "zjdxck",
+                    "name": "CK 列表",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": "zjdxck"
+                }
+            ],
+            "author": "cqdm",
+            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdxck.js",
+            "icons": [
+                "https://s2.loli.net/2023/06/17/RIX7KfhlJvUCzTF.jpg"
+            ],
+            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdxck.js"
+        }
+    ]
+}
