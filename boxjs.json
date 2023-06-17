@@ -9,25 +9,25 @@
             "id": "zjdx",
             "name": "浙江电信",
             "keys": [
-                "zjdxck"
+                "zjdx"
             ],
             "settings": [
                 {
-                    "id": "zjdxck",
-                    "name": "CK 列表",
+                    "id": "zjdx",
+                    "name": "CK列表",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
                     "rows": 4,
-                    "desc": "zjdxck"
+                    "desc": "zjdx"
                 }
             ],
             "author": "cqdm",
-            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdxck.js",
+            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdx.js",
             "icons": [
                 "https://s2.loli.net/2023/06/17/RIX7KfhlJvUCzTF.jpg"
             ],
-            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdxck.js"
+            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/zjdx.js"
         }
     ]
 }
