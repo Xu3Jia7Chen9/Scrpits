@@ -52,6 +52,30 @@
                 "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
             ],
             "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/yyq.js"
+        },
+        {
+            "id": "sgs",
+            "name": "申工社",
+            "keys": [
+                "sgs"
+            ],
+            "settings": [
+                {
+                    "id": "sgs",
+                    "name": "CK列表",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 4,
+                    "desc": "sgs"
+                }
+            ],
+            "author": "cqdm",
+            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/sgs.js",
+            "icons": [
+                "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
+            ],
+            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/sgs.js"
         }
     ]
 }
