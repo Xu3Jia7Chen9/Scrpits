@@ -61,13 +61,13 @@
             ],
             "settings": [
                 {
-                    "id": "sgs",
+                    "id": "sgsck",
                     "name": "CK列表",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
                     "rows": 4,
-                    "desc": "sgs"
+                    "desc": "sgsck"
                 }
             ],
             "author": "cqdm",
