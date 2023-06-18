@@ -57,7 +57,7 @@
             "id": "sgs",
             "name": "申工社",
             "keys": [
-                "sgsck"//跟脚本变量对应
+                "sgsck"
             ],
             "settings": [
                 {
