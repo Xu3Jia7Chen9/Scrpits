@@ -54,20 +54,20 @@
             "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/yyq.js"
         },
         {
-            "id": "sgsck",
+            "id": "sgs",
             "name": "申工社",
             "keys": [
-                "sgsck"
+                "sgs"
             ],
             "settings": [
                 {
-                    "id": "sgsck",
+                    "id": "sgs",
                     "name": "CK列表",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
                     "rows": 4,
-                    "desc": "sgsck"
+                    "desc": "sgs"
                 }
             ],
             "author": "cqdm",
@@ -76,6 +76,30 @@
                 "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
             ],
             "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/sgs.js"
+        },
+        {
+            "id": "ydxq",
+            "name": "雅迪星球",
+            "keys": [
+                "ydxq"
+            ],
+            "settings": [
+                {
+                    "id": "ydxq",
+                    "name": "CK列表",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 4,
+                    "desc": "ydxq"
+                }
+            ],
+            "author": "cqdm",
+            "repo": "https://raw.githubusercontent.com/578440613/Scrpits/main/ydxq.js",
+            "icons": [
+                "https://s2.loli.net/2023/06/17/UzKfrZQVIoTHAD2.jpg"
+            ],
+            "script": "https://raw.githubusercontent.com/578440613/Scrpits/main/ydxq.js"
         }
     ]
 }
