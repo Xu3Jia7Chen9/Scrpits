@@ -52,12 +52,15 @@ var timestamp = Math.round(new Date().getTime() / 1000).toString();
 async function GetRewrite() {
     
     if ($request.url.indexOf("activeDetails") > -1) {
+        log("url:"+$request.url)
         const ck1 = JSON.parse($request.headers);
+        log("ck1"+ck1)
         const ck2 = JSON.parse($response.body);
+        log("ck2"+ck2)
         ck3=ck1.object.Authorization
         ck4=ck2.object.head.userId
         ck=ck3+"&"+ck4
-        log(ck)
+        //log(ck)
         if (ydxq) {
             if (ydxq.indexOf(ck) == -1) {
                 ydxq = ydxq + "\n" + ck;
