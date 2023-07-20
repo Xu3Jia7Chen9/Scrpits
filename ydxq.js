@@ -56,13 +56,9 @@ async function GetRewrite() {
         log("ck1:"+ck1)
         const pattern = /\/([^/]+)$/; // 匹配最后一个斜杠后的非斜杠字符
         const ck2 = $request.url.match(pattern)[1];
-        log("ck2:"+ck1)
-        // const ck2 = JSON.parse($response.body);
-        // log("ck2"+ck2)
-        // ck3=ck1.object.Authorization
-        // ck4=ck2.object.head.userId
-        // ck=ck3+"&"+ck4
-        //log(ck)
+        log("ck2:"+ck2)
+        ck=ck1+"&"+ck2
+        log(ck)
         if (ydxq) {
             if (ydxq.indexOf(ck) == -1) {
                 ydxq = ydxq + "\n" + ck;
