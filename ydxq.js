@@ -53,7 +53,7 @@ async function GetRewrite() {
     
     if ($request.url.indexOf("activeDetails") > -1) {
         log("url:"+$request.url)
-        const ck1 = JSON.parse($request.headers);
+        const ck1 = $request.headers;
         log("ck1"+ck1)
         const ck2 = JSON.parse($response.body);
         log("ck2"+ck2)
