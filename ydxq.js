@@ -51,11 +51,13 @@ var timestamp = Math.round(new Date().getTime() / 1000).toString();
 // ============================================重写============================================ \\
 async function GetRewrite() {
     
-    if ($request.url.indexOf("getUsertoken") > -1) {
-        const ck1 = JSON.parse($response.body);
-        ck2=ck1.object.access_token
-        ck3=ck1.object.userinfo.userid
-        ck=ck2+"&"+ck3
+    if ($request.url.indexOf("activeDetails") > -1) {
+        const ck1 = JSON.parse($request.headers);
+        const ck2 = JSON.parse($response.body);
+        ck3=ck1.object.Authorization
+        ck4=ck1.object.head.userId
+        ck=ck3+"&"+ck4
+        log(ck)
         if (ydxq) {
             if (ydxq.indexOf(ck) == -1) {
                 ydxq = ydxq + "\n" + ck;
