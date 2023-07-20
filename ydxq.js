@@ -55,7 +55,7 @@ async function GetRewrite() {
         const ck1 = JSON.parse($request.headers);
         const ck2 = JSON.parse($response.body);
         ck3=ck1.object.Authorization
-        ck4=ck1.object.head.userId
+        ck4=ck2.object.head.userId
         ck=ck3+"&"+ck4
         log(ck)
         if (ydxq) {
